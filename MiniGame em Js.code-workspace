@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "MiniGame em Js",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MiniGame em Js"
+	}
+}

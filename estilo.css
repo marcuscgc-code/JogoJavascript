@@ -1,0 +1,58 @@
+body {
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0;
+    background-image: url('imagens/imagens/bg.jpg'); /* Insira o caminho correto */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a largura e altura disponíveis */
+    background-position: center; /* Mantém o centro da imagem visível */
+    height: 100vh; /* Faz o body ter exatamente o tamanho da viewport (altura total da janela disponível) */
+    width: 100vw; /* Faz o body cobrir a largura total */
+    overflow: hidden; /* Evita barras de rolagem */
+}
+
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+
+.ladoB{
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 0px;
+    bottom: 0px;
+    border-topo:solid 1px white;
+    background-color: white;
+    opacity: 0.7;
+    left: 0;
+}
+
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
