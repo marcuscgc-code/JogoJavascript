@@ -24,7 +24,9 @@
 
 			</div>
 
-			<div class="cronometro">Tempo Restante: ?</div>
+			<div class="cronometro">Tempo Restante: 
+				<span id="cronometro"></span>
+			</div>
 		</div>
 
 
@@ -32,9 +34,11 @@
 
 
         <script>
-			setInterval(function(){
+			document.getElementById('cronometro').innerHTML = tempo
+			
+			var mosquito = setInterval(function(){
 				posicaoRandomica()
-			},1000)
+			},criaMosquitoTempo)
         </script>
 	</body>
     
